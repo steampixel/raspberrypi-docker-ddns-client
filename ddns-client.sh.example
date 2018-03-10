@@ -1,0 +1,8 @@
+#!/bin/bash
+echo Hi! Iam your ddns client!
+
+while :; do
+  echo Calling ddns service...
+  wget --spider "URL OF YOUR SERVICE"
+  sleep 1m
+done
